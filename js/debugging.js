@@ -1,6 +1,5 @@
 //script js - Frond End Essentials les 2 - OP2
 //Debugging conditions
-
 //conditions 
 //de website ziet er anders uit als je jonger bent dan 10...
 
@@ -8,7 +7,7 @@ function getAge()
 {
 var myAge=document.getElementById("myAge").value; //de eerste variabele is voor je aangemaakt...
 
-    if() //vul de juiste voorwaarde in!
+    if( myAge <10) //vul de juiste voorwaarde in!
         {
              //kies code hieronder
         }

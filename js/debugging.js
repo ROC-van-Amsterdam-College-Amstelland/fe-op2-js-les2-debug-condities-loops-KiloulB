@@ -9,7 +9,8 @@ var myAge=document.getElementById("myAge").value; //de eerste variabele is voor 
 
     if( myAge <10) //vul de juiste voorwaarde in!
         {
-             //kies code hieronder
+            document.getElementById('body').style.backgroundColor = "green"
+            document.getElementsByTagName("header").style.backgroundColor = "#00AEEF";
         }
     else
         {

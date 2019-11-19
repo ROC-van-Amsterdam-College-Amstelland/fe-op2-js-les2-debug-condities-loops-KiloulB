@@ -9,18 +9,47 @@ var myAge=document.getElementById("myAge").value; //de eerste variabele is voor 
 
     if( myAge <10) //vul de juiste voorwaarde in!
         {
-            document.getElementById('body').style.backgroundColor = "green"
-            document.getElementsByTagName("header").style.backgroundColor = "#00AEEF";
+            document.getElementById('body').style.backgroundColor = "#9ACD3B"
+            document.getElementById("header").style.backgroundColor = "#00AEEF";
+            document.getElementById("main-nav").style.backgroundColor = "darkblue";
+            document.getElementById("main-content").style.borderColor = "darkblue";
+            document.getElementById("brand").src = "images/logo-01.png";
+            document.getElementsByClassName("active")[0].style.backgroundColor = "green";
         }
     else
         {
-             //kies code hieronder
+            document.getElementById('body').style.backgroundColor = "#545454"
+            document.getElementById("header").style.backgroundColor = "darkgray";
+            document.getElementById("main-nav").style.backgroundColor = "black";
+            document.getElementById("main-content").style.borderColor = "black";
+            document.getElementById("brand").src = "images/logo-02.png";
+            document.getElementsByClassName("active")[0].style.backgroundColor = "purple";
         }
 }
 
+
 function loadChildTheme()
 {
- //kies code hieronder
+    var myAge=document.getElementById("myAge").value; //de eerste variabele is voor je aangemaakt...
+
+    if( myAge <5) //vul de juiste voorwaarde in!
+        {
+            document.getElementById('body').style.backgroundColor = "red"
+            document.getElementById("header").style.backgroundColor = "#00AEEF";
+            document.getElementById("main-nav").style.backgroundColor = "darkblue";
+            document.getElementById("main-content").style.borderColor = "darkblue";
+            document.getElementById("brand").src = "images/logo-01.png";
+            document.getElementsByClassName("active")[0].style.backgroundColor = "green";
+        }
+    else
+        {
+            document.getElementById('body').style.backgroundColor = "#545454"
+            document.getElementById("header").style.backgroundColor = "darkgray";
+            document.getElementById("main-nav").style.backgroundColor = "black";
+            document.getElementById("main-content").style.borderColor = "black";
+            document.getElementById("brand").src = "images/logo-02.png";
+            document.getElementsByClassName("active")[0].style.backgroundColor = "purple";
+        }
 }
 
 function loadTheme()
